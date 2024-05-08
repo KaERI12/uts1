@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Google Sans Regular";
+    box-sizing: border-box;
+}
+ 
+body {
+    background: #000000;
+}
+
+:root {
+    --mainColor: #000;
+    --secondColor: #333646;
+    --acsenColor: #a367b1;
+    --bodycolor: #fff;
+    --backgroundColor: #171717; 
+    --violet: #ee82ee;
+}
+
+/* btn */
+ 
+.btn-dark {
+    background-color: var(--mainColor) !important;
+    color: #fff;
+    padding: 0.55rem 0;
+    width: 140px;
+    border-radius: 20px;
+  }
+   
+  .btn-dark:hover {
+    color: var(--violet) !important;
+    background-color: #573e3e;
+    border-color: var(--bodycolor) !important;
+  }
+   
+  /* And Btn */
